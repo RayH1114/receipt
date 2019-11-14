@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="./css/main.css">
 <?
 include_once("base.php");
 
@@ -12,7 +13,7 @@ $data['expense']=$_POST['expense'];
 if(insert("my_receipt",$data)){
    header("location:my_receipt.php");
 }else{
-    echo "新增失敗,請洽資料庫管理人員";
-
+    echo "新增失敗,請重新輸入";
+    echo '<a href="index.html">回到首頁</a>';
 }
 ?>

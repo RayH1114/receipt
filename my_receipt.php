@@ -32,6 +32,7 @@
   <?php
   }
   ?>
+  <div><a href="my_award.php">查詢兌獎</a></div>
 </table>   
 </body>
 

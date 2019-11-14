@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="./css/main.css">
 <?
 include_once("base.php");
 
@@ -19,7 +20,8 @@ if(insert("award",$data)){
     echo '<a href="my_award.php">查詢中獎發票</a>';
 
 }else{
-    echo "新增失敗,請洽資料庫管理人員";
+    echo "新增失敗,請重新輸入";
+    echo '<a href="index.html">回到首頁</a>';
 
 }
 ?>
