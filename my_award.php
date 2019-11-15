@@ -24,8 +24,6 @@
                  <option value="2019">2019</option>
                 </select>
              </td>
-         </tr>
-         <tr>
              <td>月份</td>
              <td><select name="period" id="period">
                  <option value="1">1-2月</option>

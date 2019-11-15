@@ -22,14 +22,14 @@
                 <tr>
                     <td>月份</td>
                     <td>
-                    <select name="period" id="period">
-                        <option value="1">1-2月</option>
-                        <option value="2">3-4月</option>
-                        <option value="3">5-6月</option>
-                        <option value="4">7-8月</option>
-                        <option value="5">9-10月</option>
-                        <option value="6">11-12月</option>
-                    </select>
+                        <select name="period" id="period">
+                            <option value="1">1-2月</option>
+                            <option value="2">3-4月</option>
+                            <option value="3">5-6月</option>
+                            <option value="4">7-8月</option>
+                            <option value="5">9-10月</option>
+                            <option value="6">11-12月</option>
+                        </select>
                     </td>
                 </tr>
                 <tr>
@@ -53,28 +53,28 @@
                 </tr>
                 <tr>
                     <td>二獎</td>
-                    <td>同期統一發票收執聯末7 位數號碼與頭獎中獎號碼末7 位相同者各得獎金4萬元</td>
+                    <td>同期統一發票收執聯末7位數號碼與頭獎中獎號碼末7位相同</td>
                     <td>4萬元</td>
                 </tr>
                 <tr>
                     <td>三獎</td>
-                    <td>同期統一發票收執聯末6 位數號碼與頭獎中獎號碼末6 位相同者各得獎金1萬元</td>
-                    <td>1000萬元</td>
+                    <td>同期統一發票收執聯末6位數號碼與頭獎中獎號碼末6 位相同</td>
+                    <td>1萬元</td>
                 </tr>
                 <tr>
                     <td>四獎</td>
-                    <td>同期統一發票收執聯末5 位數號碼與頭獎中獎號碼末5 位相同者各得獎金4千元</td>
-                    <td>1000萬元</td>
+                    <td>同期統一發票收執聯末5位數號碼與頭獎中獎號碼末5 位相同</td>
+                    <td>4千元</td>
                 </tr>
                 <tr>
                     <td>五獎</td>
-                    <td>同期統一發票收執聯末4 位數號碼與頭獎中獎號碼末4 位相同者各得獎金1千元</td>
-                    <td>1000萬元</td>
+                    <td>同期統一發票收執聯末4位數號碼與頭獎中獎號碼末4位相同</td>
+                    <td>4千元</td>
                 </tr>
                 <tr>
                     <td>六獎</td>
-                    <td>同期統一發票收執聯末3 位數號碼與 頭獎中獎號碼末3 位相同者各得獎金2百元</td>
-                    <td>1000萬元</td>
+                    <td>同期統一發票收執聯末3位數號碼與頭獎中獎號碼末3位相同</td>
+                    <td>2百元</td>
                 </tr>
                 <tr>
                     <td>增開六獎</td>
