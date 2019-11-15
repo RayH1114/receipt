@@ -19,8 +19,4 @@ function SELECTall($table){
     //$rows=$pdo->query($sql)->fetchAll();  //取出全部的資料
     return $pdo->query($sql)->fetchAll();
 }
-
-
-
-
 ?>

@@ -44,9 +44,11 @@
                 </tr>
                 <tr>
                     <td>頭獎</td>
-                    <td><input type="text" id="jackpot1" name="jackpot1" maxlength="8"></td>
-                    <td><input type="text" id="jackpot2" name="jackpot2" maxlength="8"></td>
-                    <td><input type="text" id="jackpot3" name="jackpot3" maxlength="8"></td>
+                    <td>
+                        <input type="text" id="jackpot1" name="jackpot1" maxlength="8">
+                        <input type="text" id="jackpot2" name="jackpot2" maxlength="8">
+                        <input type="text" id="jackpot3" name="jackpot3" maxlength="8">
+                    </td>
                     <td>20萬元</td>
                 </tr>
                 <tr>
@@ -76,11 +78,12 @@
                 </tr>
                 <tr>
                     <td>增開六獎</td>
-                    <td><input type="text" id="six1" name="six1" maxlength="3"></td>
-                    <td><input type="text" id="six2" name="six2" maxlength="3"></td>
-                    <td><input type="text" id="six3" name="six3" maxlength="3"></td>
-                    <td>同期統一發票收執聯末3位數號碼與增開六獎號碼相同者各得獎金2百元</td>
-                    <td>1000萬元</td>
+                    <td>
+                        <input type="text" id="six1" name="six1" maxlength="3">
+                        <input type="text" id="six2" name="six2" maxlength="3">
+                        <input type="text" id="six3" name="six3" maxlength="3">
+                    </td>
+                    <td>獎金2百元</td>
                 </tr>
             </table>
             <input type="submit" value="送出">
