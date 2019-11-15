@@ -11,7 +11,7 @@ $data['expense']=$_POST['expense'];
 
 //判斷是否新增成功;
 if(insert("my_receipt",$data)){
-   header("location:my_receipt.php");
+   header("location:index.html");
 }else{
     echo "新增失敗,請重新輸入";
     echo '<a href="index.html">回到首頁</a>';

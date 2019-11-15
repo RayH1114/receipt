@@ -17,7 +17,8 @@ $data['six3']=$_POST['six3'];
 //判斷是否新增成功;
 if(insert("award",$data)){
     echo "新增成功";
-    echo '<a href="my_award.php">查詢中獎發票</a>';
+    header("location:index.html");
+
 
 }else{
     echo "新增失敗,請重新輸入";

@@ -8,15 +8,8 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <?
-    include_once("base.php");
-    $my_receipt=SELECTall('my_receipt');
-    $award=SELECTall('award');
-    // $selectPeriod=selectPeriod('award')
-    // print_r($my_receipt);
-    // print_r($award);
-    ?>  
-    <table>
+<form action="my_award_api.php" method="POST">
+    <table id="">
          <tr>
              <td>年分</td>
              <td>
@@ -39,8 +32,9 @@
              </td>
          </tr>
     </table>
-        <input type="submit" value="兌獎">
+          <input type="submit" value="查看當期獎號">  
+    </div> 
   </table>  
-
+</form>
 </body>
 </html>
